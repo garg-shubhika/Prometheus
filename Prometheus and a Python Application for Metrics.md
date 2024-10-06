@@ -52,7 +52,7 @@ if __name__ == '__main__':
 ```
 8. Run app.py
 ```bash
-python app.py
+python3 app.py
 ```
 9. Open the prometheus.yml file in the Prometheus directory. Add the below configuration
 ```bash
