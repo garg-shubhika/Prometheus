@@ -74,3 +74,11 @@ http://localhost:9090/graph
 ```bash
 http_requests_total
 ```
+14. To calculate the rate of HTTP requests over the last 5 minutes:
+```bash
+rate(http_requests_total[5m])
+```
+15. To get the average number of requests per second over the last 10 minutes:
+```bash
+avg(rate(http_requests_total[10m]))
+```
